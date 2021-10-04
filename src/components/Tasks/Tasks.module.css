@@ -1,0 +1,28 @@
+.minibox { 
+    width: 500px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr { 
+    width: 500px;
+    margin: auto;
+    padding: auto;
+}
+
+.task { 
+    margin: 15px;
+    width: 500px;
+    color: #ecd7d7;
+    height: 50px;
+    outline: none;
+    background-color: #c94b47;
+    border-radius: 8px;
+    border: 2px dashed #ecd7d7 ;
+}
+
+::placeholder{
+    color:#ecd7d7 ;
+}
