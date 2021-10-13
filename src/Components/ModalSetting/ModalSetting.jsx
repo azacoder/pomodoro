@@ -45,9 +45,9 @@ export const ModalSetting = () => {
         dispatch({type:"MODAL_SETTING", modalStatus:true}); 
     }; 
 
-    //получеам данные из инпута//////  
+    //получеам данные из инпута 
     
-    ///функция которая получает значение на usestate///
+    //функция которая получает значение на usestate
     const getPomodoraValue = (e) => { 
         setPomodoraInput(e.target.value); 
     }; 
@@ -79,8 +79,7 @@ export const ModalSetting = () => {
     
     
 
-    //////////////////////////////////////////////
-    ///диспатчим значение инпутов при клике на стейт/////
+    //диспатчим значение инпутов при клике на стейт
     
     const stateValueChanger = () => {
         dispatch({type:"CHANGE_SOME_SETTING",
